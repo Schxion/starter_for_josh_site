@@ -1,0 +1,126 @@
+.bg1{
+    background-image: url("images/bg1.jpg");
+    background-size:cover;
+    height: 75vh;
+}
+.nav-link{
+    font-size: 0.8rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.josh{
+    font-weight: bold;
+}
+.white{
+    color: #FFFFFF;
+}
+.orange{
+    color: #FDA118;
+}
+.calibri{
+    font-family: "calibri", sans-serif;
+}
+.tagline{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding-bottom: 10%;
+    margin-top: 15%;
+    margin-right: 15%;
+}
+.tagline h1{
+
+    width: 340px;
+    font-size: 7em;
+    letter-spacing: -10px;
+    font-weight: 800;
+    line-height: 75%;
+    font-family: "Raleway", sans-serif;
+}
+
+.aboutbg{
+    background-color: #E8E7EA;
+    background-size:cover;
+    padding: 2%;
+    }
+
+.aboutbg h2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 2.4em;
+}
+
+.particle{
+    text-align: right;
+    margin-right: 150px;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+
+.about-text{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.blocker{
+    width: 200px;
+    height: 10px;
+    background-color: #AC83BA;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.articlesbg{
+    background-color: #FDFDFE;
+}
+
+.articlesbg h3{
+    font-size: 1.7em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.article-title{
+    font-size: 1.5em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    color: black;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.date{
+    font-style: italic;
+    font-size: 0.8em;
+    text-align:left;
+}
+
+.read-more{
+    display: block;
+    color: #848181;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+    
+}
+
+footer{
+    background-image: url(images/footer1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.t-and-c{
+    color: #FFFFFF;
+    font-family: "calibri", sans-serif;
+    font-size: 2rem;
+}
