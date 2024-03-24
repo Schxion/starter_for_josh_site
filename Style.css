@@ -133,3 +133,19 @@ footer{
     font-family: "calibri", sans-serif;
     font-size: 2rem;
 }
+
+.smallpage-bg{
+    width: 100%;
+background: url("images/page-header-bg.jpg") no-repeat center center;
+background-size: cover;/*make the background image cover the whole div proportionally*/
+height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
+
+}
+
+.smallpage-title h1{ 
+    font-size: 4em;
+    color: white;
+    font-weight: 800;
+    margin-top: 9%;
+    padding-bottom: 5%;
+}
