@@ -36,7 +36,7 @@
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </head>
-<header class="container-fluid bg1">
+<header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
@@ -66,7 +66,7 @@ wp_nav_menu( array(
 
         </nav>
         <div class="raleway tagline white">
-            <h1>Games Design for the future</h1>
+            <h1><?php the_field('maintagline'); ?></h1>
         </div>
     </div>    
     <?php wp_head(); ?> <!-- very important that this code is added-->
