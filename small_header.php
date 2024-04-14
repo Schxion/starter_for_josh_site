@@ -36,7 +36,7 @@
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </head>
-<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+<header class="container-fluid small_herobg">
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
@@ -70,7 +70,7 @@
             </div>
         </nav>
         <div class="smallpage-tag"> <!-- div that holds the content in the middle of the page -->
-            <h1 class="smallpage-title"><?php the_field('projectheadertitle'); ?></h1> <!-- the main tag line -->
+            <!-- <h1 class="smallpage-title">Projects</h1> --> <!-- the main tag line -->
         </div>
     </div>    
     <?php wp_head(); ?> <!-- very important that this code is added-->
